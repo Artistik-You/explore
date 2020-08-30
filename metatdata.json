@@ -1,0 +1,39 @@
+[{
+    "@context": "https:\u002F\u002Fschema.org",
+    "@type": "Private Limited Company",
+    "name": "ArtistikYou",
+    "description": "ArtistikYou boasts itself to be the only one stop platform in india for artists right from Musicians to Dancers, from Podcast hosts to Theater Experts. ArtistikYou is in the development phase and will be launching in a month's time. It will be launching in phases and first phase being the one stop solution for musicians. Musician have the liberty to solve any of their problem on our platform right from booking studios to finding labels to endorse their music, right from getting more organic listeners on spotify and other platforms to boosting their social media platforms, from finding the best designers in the town to design their music art to finding photographers and videographers to cover their gigs, from getting their merchandise printed to reaching out to distribution channels! ArtistikYou has got them covered. 
+",
+    "url": "https:\u002F\u002Fwww.ArtistikYou.com",
+    "logo": "https:\u002F\u002Fstatic.ArtistikYou.com\u002Fstatic\u002Fimages\u002FArtistikYou_logo_100x100@2x.png",
+    "foundingDate": "22 August,2020",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "110 Kippax Street",
+        "addressLocality": "Surry Hills",
+        "addressRegion": "NSW",
+        "addressCountry": "AU",
+        "postalCode": "2010"
+    },
+    "founder": [{
+        "@type": "Person",
+        "name": "Vrishabh Bakliwal"
+    }, {
+        "@type": "Person",
+        "name": "Siddharth Pareek"
+    }, {
+        "@type": "Person",
+        "name": "Gaurav Singh"
+ }, {
+        "@type": "Person",
+        "name": "Vipul Goyal"
+    }],
+    "sameAs": [
+        "https://www.facebook.com/Artistik-You-107634967729471/?ref=aymt_homepage_panel&eid=ARAFXEiZEKxp2R6dp2pIbuFyusfodYbee1CEOKBPLjjWJDnPHChIFkEnp2SjIyXSOkw4zVMGre8uLSMe",
+        "https://twitter.com/ArtistikYou",
+        "https://www.instagram.com/artistikyou/?hl=en",
+        "https://www.linkedin.com/in/artistik-you-1b94b71b5/",
+        "https://www.youtube.com/channel/UCZ7L_P_BcKJS6lAOFulnscg?view_as=subscriber",
+        "https:\u002F\u002Fgithub.com\u002FArtistikYou"
+    ]
+}]

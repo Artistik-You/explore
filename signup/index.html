@@ -11,10 +11,10 @@
     <link href="./css" rel="stylesheet" />
     <link href="./7856bd54341c458516e2a034af6fcb67.2.runtime.js.download" rel="preload" as="script" crossorigin="anonymous" />
     <link href="./8397287f8b80c11a15af.2.js.download" rel="preload" as="script" crossorigin="anonymous" />
-	<meta name="google-signin-client_id" content="563877686787-la4qkf3h8qlrd8fb9tfeo42iu5qpg8fl.apps.googleusercontent.com">
+    <meta name="google-signin-client_id" content="563877686787-la4qkf3h8qlrd8fb9tfeo42iu5qpg8fl.apps.googleusercontent.com">
     <link href="./538eea568f984e5db3aa.2.js.download" rel="preload" as="script" crossorigin="anonymous" />
     <link href="./244dbda41dcd415a557a.2.js.download" rel="preload" as="script" crossorigin="anonymous" />
-	<script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <link href="./3edebff8043114bb9df44e20be408424.2.js.download" rel="preload" as="script" crossorigin="anonymous" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta property="fb:app_id" content="525265914179580" />
@@ -32,45 +32,48 @@
     <script type="text/javascript" async="" src="./appboy.core.min.js.download"></script>
     <script type="text/javascript" async="" src="./gtm.js.download"></script>
     <script type="text/javascript" async="" src="./cl-0.3.0.min.js.download"></script>
-	
-<script>
-	function onSignIn(googleUser) {
-  var profile = googleUser.getBasicProfile();
-  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-  console.log('Name: ' + profile.getName());
-  console.log('Image URL: ' + profile.getImageUrl());
-  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-}
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '599200754101965',
-      cookie     : true,
-      xfbml      : true,
-      version    : 'v8.0'
-    });
-      
-    FB.AppEvents.logPageView();   
-      
-  };
 
-function checkLoginState() {
-  FB.getLoginStatus(function(response) {
-    statusChangeCallback(response);
-  });
-}
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-<script>	
-FB.getLoginStatus(function(response) {
-    statusChangeCallback(response);
-});
-	</script>
+    <script>
+        function onSignIn(googleUser) {
+            var profile = googleUser.getBasicProfile();
+            console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+            console.log('Name: ' + profile.getName());
+            console.log('Image URL: ' + profile.getImageUrl());
+            console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+        }
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '599200754101965',
+                cookie: true,
+                xfbml: true,
+                version: 'v8.0'
+            });
+
+            FB.AppEvents.logPageView();
+
+        };
+
+        function checkLoginState() {
+            FB.getLoginStatus(function(response) {
+                statusChangeCallback(response);
+            });
+        }
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>
+        FB.getLoginStatus(function(response) {
+            statusChangeCallback(response);
+        });
+    </script>
     <script type="application/ld+json">
         [{
             "@context": "https:\u002F\u002Fschema.org",
@@ -238,8 +241,8 @@ FB.getLoginStatus(function(response) {
 </head>
 
 <body>
-	<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0&appId=599200754101965&autoLogAppEvents=1" nonce="4tBMh0bO"></script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0&appId=599200754101965&autoLogAppEvents=1" nonce="4tBMh0bO"></script>
     <div class="NqU4Yg" style="z-index: 4;">
         <div class="_9HetvA">
             <div class="GddRww Eng2TQ" style="
@@ -1862,16 +1865,19 @@ form signature: 5857371039225184586" autofill-prediction="UNKNOWN_TYPE" spellche
                                 </li>
                               </ul>
                             </div>
-                            <div class="q90jYQ">
+                            <div class="q90jYQ" style="
+    left: 29px;
+    position: relative;
+">
                               <div class="ZjGKzA WDxyrQ">
                                 <div class="GIvM4Q">
 					
                                   <div class="fb-login-button" data-size="large" data-button-type="continue_with" data-layout="rounded" data-auto-logout-link="true" data-use-continue-as="true" data-width=""></div>
                                 </div>
                                 <div class="fzShTA">
-                                  <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                                  <div class="g-signin2" data-onsuccess="onSignIn" style="height:36px;width: 245px;"></div>
                                 </div>
-				      <a href="#" onclick="signOut();">Sign out</a>
+				      <!-- <a href="#" onclick="signOut();">Sign out</a> -->
 <script>
   function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();

@@ -43,8 +43,8 @@
 <!-- use the Okta widget to power authentication! -->
 <script type="text/javascript">
   var oktaSignIn = new OktaSignIn({
-    baseUrl: "{{ YOUR_ORG_URL }}",
-    clientId: "{{ YOUR_APP_CLIENT_ID }}",
+    baseUrl: "http://localhost:8080/implicit/callback",
+    clientId: "0oaw9musjRJpAMetY4x6",
     authParams: {
       issuer: "default",
       responseType: ['token', 'id_token'],

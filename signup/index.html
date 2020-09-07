@@ -44,6 +44,11 @@
       
   };
 
+function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+}
   (function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
      if (d.getElementById(id)) {return;}
@@ -1851,6 +1856,11 @@ form signature: 5857371039225184586" autofill-prediction="UNKNOWN_TYPE" spellche
                             <div class="q90jYQ">
                               <div class="ZjGKzA WDxyrQ">
                                 <div class="GIvM4Q">
+					
+<fb:login-button 
+  scope="public_profile,email"
+  onlogin="checkLoginState();">
+</fb:login-button>
                                   <div class="fb-login-button" data-size="medium" data-button-type="continue_with" data-layout="rounded" data-auto-logout-link="true" data-use-continue-as="true" data-width=""></div>
                                 </div>
                                 <div class="fzShTA">
